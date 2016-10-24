@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Open+Sans:400" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <meta property="og:image" content="images/whichjayareyou.jpg"/>
+  <meta property="og:title" content="Which Toronto Blue Jay are you?"/>
+  <meta property="og:url" content="https://whichjayareyou.com"/>
+  <meta property="og:site_name" content="Which Toronto Blue Jay are you?"/>
+  <meta property="og:type" content="quiz"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Which Toronto Blue Jay are you?</title>
+</head>
+<body>
+  <div class="overlay close"></div>
+  <div class="innerWrapper">
+    <main>
+      <header>
+        <h1>Which <span class="break">Toronto Blue Jay</span> are you?</h1>
+      </header>
+      <div class="flex-container flex-wrap">
+        <div class="form__left">
+          <form action="">
+            <fieldset class="questions question1 flex-mobile">
+              <p>What is the weather like? </p>
+              <input type="radio" name="question1" value="1" id="Dome">
+              <label for="Dome">Dome Open</label>
+              <input type="radio" name="question1" value="3" id="Rain">
+              <label for="Rain">Bring on the Rain</label>
+              <input type="radio" name="question1" value="2" id="Snowed">
+              <label for="Snowed">Snowed Out</label>
+            </fieldset>
+
+            <fieldset class="questions question2 flex-mobile">
+              <p>What is your favourite bird? </p>
+              <input type="radio" name="question2" value="2" id="Jay">
+              <label for="Jay">Blue Jay</label>
+              <input type="radio" name="question2" value="3" id="Parrot">
+              <label for="Parrot">Parrot</label>
+              <input type="radio" name="question2" value="1" id="Orioles">
+              <label for="Orioles">Orioles</label>
+            </fieldset>
+
+            <fieldset class="questions question3 flex-mobile">
+              <p>Who is your favourite Superhero?</p>
+              <input type="radio" name="question3" value="2" id="Batman">
+              <label for="Batman">Batman</label>
+              <input type="radio" name="question3" value="3" id="Superman">
+              <label for="Superman">Superman</label>
+              <input type="radio" name="question3" value="1" id="Iron">
+              <label for="Iron">Iron Man</label>
+            </fieldset>
+
+            <fieldset class="questions question4 flex-mobile">
+              <p>What do you bring to the game?</p>
+              <input type="radio" name="question4" value="2" id="seeds">
+              <label for="seeds">Sunflower seeds</label>
+              <input type="radio" name="question4" value="3" id="pizza">
+              <label for="pizza">Full pizza</label>
+              <input type="radio" name="question4" value="1" id="tobacco">
+              <label for="tobacco">chewing tobacco</label>
+            </fieldset>
+
+            <fieldset class="questions question5 flex-mobile">
+              <p>Who is your favourite Past Blue Jay?</p>
+              <input type="radio" name="question5" value="2" id="Carter">
+              <label for="Carter">Joe Carter</label>
+              <input type="radio" name="question5" value="3" id="Alomar">
+              <label for="Alomar">Roberto Alomar</label>
+              <input type="radio" name="question5" value="1" id="Gruber">
+              <label for="Gruber">Kelly Gruber</label>
+            </fieldset>
+
+            <div class="submit">
+              <input type="submit">
+            </div>
+          </form>
+        </div>
+
+        <div class="game__right">
+          <div class="inner--border clearfix" id="game__day">
+            <h2>Next Game</h2>
+            <div class="inner--left">
+              <p><strong>Date:</strong> 10/15/16</p>
+              <p><strong>Time:</strong> 4:08pm</p>
+              <p><strong>Ball Park:</strong> Progressive Field</p>
+              <ul>
+                <li class="underline"><strong>Starting Pitchers</strong></li>
+                <li><strong>Toronto:</strong> J.A. Happ</li>
+                <li><strong>Cleveland:</strong> Josh Tomlin</li>
+              </ul>
+            </div>
+              <a href="#" id="twitter-before" class="twitter-before" target="_blank">Share this quiz!</a>
+          </div>
+        </div>
+      </div>
+      <section class="results clearfix">
+
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>Created by</p>
+      <div class="flex-container">
+        <ul>
+          <li><strong>Michael Scarlett: </strong> </li>
+          <li><a href="http://www.michaelscarlett.co" target="_blank">Website</a></li>
+          <li><a href="http://www.twitter.com/dameronscarlett" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+        </ul>
+        <ul>
+          <li><strong>Erika Donovan: </strong> </li>
+          <li><a href="http://portfolio.erikadonovan.com" target="_blank">Website</a></li>
+          <li><a href="http://www.twitter.com/erkdonovan" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+        </ul>
+      </div>
+      <a href="http://www.torontobluejays.com" target="_blank">Toronto Blue Jays Website</a>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script src="script.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-48722502-9', 'auto');
+    ga('send', 'pageview');
+
+  </script>  
+</body>
+</html>
